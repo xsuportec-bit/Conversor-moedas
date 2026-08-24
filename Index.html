@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Conversor de Moedas - Cotações Atualizadas</title>
+  <meta name="description" content="Converta moedas em tempo real com nosso conversor online gratuito. Dólar, Euro, Real e mais." />
+  <link rel="stylesheet" href="style.css" />
+  <!-- Google AdSense (coloque seu código aqui depois de aprovado) -->
+  <!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXX" crossorigin="anonymous"></script> -->
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>💱 Conversor de Moedas</h1>
+      <p>Taxas atualizadas diariamente</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Bloco de anúncio (topo) -->
+    <div class="ad-block">
+      <!-- <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-XXXXXXXXXX" data-ad-slot="1234567890" data-ad-format="auto"></ins> -->
+      <p style="color:#999; text-align:center; font-size:0.8rem;">Espaço para anúncio</p>
+    </div>
+
+    <section class="converter-card">
+      <div class="form-group">
+        <label for="amount">Valor</label>
+        <input type="number" id="amount" value="1" min="0" step="any" />
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label for="from">De</label>
+          <select id="from">
+            <option value="USD">Dólar (USD)</option>
+            <option value="BRL" selected>Real (BRL)</option>
+            <option value="EUR">Euro (EUR)</option>
+            <option value="GBP">Libra (GBP)</option>
+            <option value="JPY">Iene (JPY)</option>
+            <option value="CAD">Dólar Canadense (CAD)</option>
+            <option value="AUD">Dólar Australiano (AUD)</option>
+            <option value="CHF">Franco Suíço (CHF)</option>
+            <option value="CNY">Yuan (CNY)</option>
+            <option value="ARS">Peso Argentino (ARS)</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="to">Para</label>
+          <select id="to">
+            <option value="USD" selected>Dólar (USD)</option>
+            <option value="BRL">Real (BRL)</option>
+            <option value="EUR">Euro (EUR)</option>
+            <option value="GBP">Libra (GBP)</option>
+            <option value="JPY">Iene (JPY)</option>
+            <option value="CAD">Dólar Canadense (CAD)</option>
+            <option value="AUD">Dólar Australiano (AUD)</option>
+            <option value="CHF">Franco Suíço (CHF)</option>
+            <option value="CNY">Yuan (CNY)</option>
+            <option value="ARS">Peso Argentino (ARS)</option>
+          </select>
+        </div>
+      </div>
+
+      <button id="convertBtn">Converter</button>
+
+      <div id="result" class="result-box">
+        <span id="convertedValue">—</span>
+        <span id="rateInfo"></span>
+      </div>
+    </section>
+
+    <!-- Bloco de anúncio (meio) -->
+    <div class="ad-block">
+      <!-- <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-XXXXXXXXXX" data-ad-slot="0987654321" data-ad-format="auto"></ins> -->
+      <p style="color:#999; text-align:center; font-size:0.8rem;">Espaço para anúncio</p>
+    </div>
+
+    <section class="info-section">
+      <h2>Como funciona?</h2>
+      <p>Nosso conversor utiliza a API pública <strong>Frankfurter</strong>, que fornece taxas de câmbio em tempo real com base no euro. Os dados são atualizados diariamente.</p>
+      <p>Ideal para viajantes, investidores e quem precisa de cotações rápidas.</p>
+    </section>
+
+    <!-- Bloco de anúncio (rodapé) -->
+    <div class="ad-block">
+      <!-- <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-XXXXXXXXXX" data-ad-slot="1122334455" data-ad-format="auto"></ins> -->
+      <p style="color:#999; text-align:center; font-size:0.8rem;">Espaço para anúncio</p>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 Conversor de Moedas. Todos os direitos reservados.</p>
+      <p><a href="#">Política de Privacidade</a> | <a href="#">Termos de Uso</a></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+        </html>
